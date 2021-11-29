@@ -69,7 +69,7 @@ def random_colors(N, bright=True):
     return colors
 
 
-def apply_mask(image, mask, color, alpha=0.5):
+def apply_mask(image, mask, color, alpha=1.0):
     """Apply the given mask to the image.
     """
     for c in range(3):
