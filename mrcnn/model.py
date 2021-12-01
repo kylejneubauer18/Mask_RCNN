@@ -20,7 +20,7 @@ import tensorflow as tf
 import keras
 import keras.backend as K
 import keras.layers as KL
-from tensorflow.keras.layers import Layer, InputSpec as KE
+from tensorflow.keras.layers import Layer as KE
 import keras.models as KM
 
 from mrcnn import utils
